@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Survey</h1>
+    
+    <form> <!--this is where you can do a survey answering question based on your opinion--> 
+        
+        <h2>Name And Age</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+    
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+    
+
+        <h2>Who Should Have Won The Ballon D'or</h2>
+        <!-- Ballon d'Or Choice (Radio Buttons) -->
+        <p>Who do you think should have won the Ballon d'Or?</p>
+        <input type="radio" id="rodri" name="ballon_dor" value="Rodri">
+        <label for="rodri">Rodri</label><br>
+    
+        <input type="radio" id="vini" name="ballon_dor" value="Vinicius Jr.">
+        <label for="vini">Vinicius Jr.</label><br><br>
+    
+        <h2>Why</h2>
+        <!-- Explanation (Textarea) -->
+        <label for="reason">Why do you think they should have won?</label><br>
+        <textarea id="reason" name="reason" rows="4" cols="50"></textarea><br><br>
+    
+        <h2>Feedback</h2>
+        <!-- Website Feedback (Yes/No Checkbox) -->
+        <label for="helpful">Was this website helpful?</label>
+        <input type="checkbox" id="helpful" name="helpful"><br><br>
+    
+        <!-- Explanation for Website Feedback -->
+        <label for="whyHelpful">Why do you think it was helpful?</label><br>
+        <textarea id="whyHelpful" name="whyHelpful" rows="4" cols="50"></textarea><br><br>
+    
+        
+        <input type="reset" value="Reset Form"> <!--this is the input that we didnt learn in our lessons-->
+        <br>
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>  
+        
+    
+    </form>
+    
+    
+    
+    <a href="index.html">Go Back?</a>
+    <style>
+        body{
+            background-color: goldenrod;
+            color: black;
+        }
+    </style>
+
+</body>
+</html>
